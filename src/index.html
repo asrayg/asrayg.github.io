@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>Asray Gopa | Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="Java, Python, C, LEGv8, TensorFlow, RoboFlow, Git, SQL, Neo4J" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Asray Gopa</span>
+          <br />
+          I'm your local neighbourhood developer.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Know more</a
+          >
+        </p>
+        
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/IMG_4519.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I'm a passionate Computer Science student at Iowa State University 
+                with a knack for innovation and entrepreneurship. With a blend of 
+                technical skills, leadership experience, and a drive to innovate, 
+                I'm committed to pushing boundaries and leaving a lasting mark.
+
+
+              </p>
+              <p class="about-wrapper__info-text">
+                Founder + CEO @ The Brik<br>
+              COO @ HerdMate<br>
+              CTO @ WellGuard LLC<br><br>
+
+              Student Senator @ Iowa State University Student Government<br>
+              Fellow @ LAS Innovation + Entrepreneurship Academy<br>
+              Business Director @ prISUm Solar Car<br>
+              Member @ ISUPD Advisory Board
+
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">vetU</h3>
+                <div>
+                  <p class="mb-4">
+                    vetU is an AI/ML powered application for veterinary telehealth, designed 
+                    to assist pet owners in assessing their pets' health conditions remotely. 
+                    The application utilizes image recognition technology, AI analysis, and 
+                    access to veterinary resources to provide preliminary diagnoses and 
+                    recommend appropriate actions. This was made at BuildDSM v1 and it won 
+                    Best Pitch/Demo and second overall in points.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://www.youtube.com/watch?v=n5ee-hb7JCg"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/asrayg/vetU"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://www.youtube.com/watch?v=n5ee-hb7JCg" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/vetu.jpeg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Coloring Minds Record System
+                </h3>
+                <div>
+                  <p class="mb-4">
+                  The Coloring Minds Record Keeping System is a Java-based app for after 
+                  school art classes. It manages records, attendance, fees, and payments 
+                  efficiently. Features include email generation, balance management, and 
+                  a user-friendly interface. It uses Java Swing for UI, Maven for email, 
+                  and various data structures for record management. My mother, who runs 
+                  Coloring Minds, extensively utilizes this system. Future plans include 
+                  adding features like facial recognition for attendance, direct payment 
+                  integration with Indian UPI servers, WhatsApp updates, and more.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/asrayg/ColoringMindsRecordKeepingSystem/tree/master"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/asrayg/ColoringMindsRecordKeepingSystem/tree/master" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/cmrks.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">WellGuard Card Generator
+                </h3>
+                <div>
+                  <p class="mb-4">
+                  This script generates insurance cards with QR codes using Python libraries 
+                  like PIL, qrcode, and reportlab. It reads customer information from a CSV 
+                  file, then creates personalized cards with logos, text, and QR codes 
+                  containing the data. The cards are saved as PNG files and compiled into a 
+                  PDF document. The PDF's layout includes multiple cards per page. It offers 
+                  flexibility in customization and scalability for generating a batch of 
+                  insurance cards efficiently.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/asrayg/Saftinet"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/asrayg/Saftinet" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/okay.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">StuOrg Scraping API</h3>
+                <div>
+                  <p class="mb-4">
+                    This is the first API I ever built using flask. The Officer Information 
+                    API is designed to retrieve officer information for various student 
+                    organizations from Iowa State University. The API utilizes a Python 
+                    script for web scraping to collect officer details from a specified website.                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/asrayg/iowastate-stuorg-email-scraping-api"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/asrayg/iowastate-stuorg-email-scraping-api" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/bruh.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- /END Entrepreneurial Experience Section -->
+
+    <!-- **** Entrepreneurial Experience Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Entrepreneurial Experiences</h2>
+
+          <!-- Notice: each .row is a Entrepreneurial Experience -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">CEO @ The Brik</h3>
+                <div>
+                  <p class="mb-4">
+                    The Brik – your ultimate solution for everyday organization. Say goodbye 
+                    to frantic searches for your keys, wallet, or phone. With 15-in-1 
+                    functionality packed into a sleek, pocket-sized design, The Brik keeps 
+                    all your essentials neatly organized and easily accessible. From college 
+                    students to busy professionals and DIY enthusiasts, our customizable tool 
+                    is designed to fit seamlessly into your lifestyle. With features like a 
+                    phone stand, wallet, multi-tools, and more, The Brik ensures you're always 
+                    prepared for whatever the day throws at you. Experience convenience like 
+                    never before – shop The Brik today!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://www.instagram.com/the.brik/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/okie.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Entrepreneurial Experience -->
+
+          <!-- Notice: each .row is a Entrepreneurial Experience -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">CTO @ WellGuard LLC
+                </h3>
+                <div>
+                  <p class="mb-4">
+                  I co-founded this company with 2 others and we create software solutions for 
+                  patient medical services and medical insurance services. A couple of products 
+                  we have developed are Insurance Medical Cards that are NFC enabled and can 
+                  transfer your medical information safely, a Doctor Translator Application that 
+                  makes understanding what doctors say easier and in any language, and more. I 
+                  worked on building the application using my software knowledge and we have 
+                  pitched our business at various competitions and to investors
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/wellguard_logo.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Entrepreneurial Experience -->
+
+          <!-- Notice: each .row is a Entrepreneurial Experience -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">COO @ HerdMate
+                </h3>
+                <div>
+                  <p class="mb-4">
+                  App connecting cattlemen with good cattle
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/kow.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Entrepreneurial Experience -->
+          
+          <!-- Notice: each .row is a Entrepreneurial Experience -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">CEO @ Scalar News</h3>
+                <div>
+                  <p class="mb-4">
+                    Scalar News is a news update service where we provide daily news content
+                     under 50 words. We believe that the less the readers have to read, the 
+                     more they have a better understanding of current world events. We are 
+                     currently including automated journalism in our system so that the 
+                     computer does the work of the writer. We are currently working on an 
+                     AI/ML system to integrate into our organization.                    
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://linktr.ee/scalar_news" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Untitled design (11).png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Entrepreneurial Experience -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Entrepreneurial Experience Section -->
+
+
+
+
+
+
+
+    <!-- /END ISU  -->
+
+    <!-- **** Entrepreneurial Experience Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Iowa State University Leadership Experiences</h2>
+
+          <!-- Notice: each .row is a Entrepreneurial Experience -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Student Senator @ Student Government</h3>
+                <div>
+                  <p class="mb-4">
+                    In my elected position, I work on and write bills that assist the student 
+                    body and fund organizations. I am also involved in various projects, 
+                    including the creation of a website that compiles all the resources available 
+                    on campus, allowing students to easily access the thousands of helpful 
+                    resources Iowa State has to offer. Additionally, I am working on initiatives 
+                    to provide free tutoring credits to students, enabling them to explore 
+                    alternative study methods at no cost before deciding to drop a class without 
+                    trying. I am also dedicated to improving campus safety by advocating for the 
+                    installation of stop signs and crosswalks at various hazardous locations within 
+                    both the campus and the city. Furthermore, in my role as a legislative ambassador, 
+                    I am currently lobbying for issues related to DEI, mental health, and food 
+                    insecurity at the Iowa State Capitol. I also serve on the ISUPD Chief's Student 
+                    Advisory Board and give input on campus issues and lobby for solutions that the 
+                    student body wants.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://www.instagram.com/the.brik/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/stugov.jpeg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Entrepreneurial Experience -->
+
+          <!-- Notice: each .row is a Entrepreneurial Experience -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Business Director @ prISUm Solar Car Team
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    I am responsible for a range of crucial tasks within the team. This includes 
+                    identifying and assigning pertinent business projects to members of the Business 
+                    subteam, ensuring adherence to timelines for project progress, and fostering 
+                    seamless communication between project directors and business team members. 
+                    Additionally, I actively engage in recruitment activities to onboard new members 
+                    and undertake initiatives to enhance PrISUm’s brand and increase public awareness. 
+                    Maintaining and cultivating sponsor relationships is also integral to my role, 
+                    where I serve as the primary point of contact for prospective sponsors. Managing 
+                    business budgets efficiently and holding regular weekly meetings are among my 
+                    routine responsibilities to ensure the smooth operation of our team's business 
+                    endeavors.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/buzzy.jpeg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Entrepreneurial Experience -->
+
+         
+          
+          
+        </div>
+      </div>
+    </section>
+    <!-- /END Entrepreneurial Experience Section -->
+
+
+
+
+
+
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">
+            Ready to collaborate on innovative projects or explore exciting <br>
+            opportunities together? Let's connect and embark on a journey of <br>
+            creativity, growth, and impact. Reach out to me via email or connect <br>
+             with me on LinkedIn. Let's make a difference together!<br>
+          </p>
+      
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://twitter.com/asraygopa" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://linkedin.com/in/asrayg" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/asrayg" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          © 2024 - Developed by
+          <a rel="noreferrer" href="https://github.com/asrayg" target="_blank"
+            >Asray Gopa</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
